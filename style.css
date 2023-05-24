@@ -160,7 +160,7 @@ nav {
     margin-bottom: 18px;
 }
 
-.sidebar-title > h4 {
+.right-sidebar > h4 {
     font-size: 16px;
     font-weight: 600;
 }
@@ -213,4 +213,26 @@ nav {
     width: 100%;
     margin-bottom: 20px;
     border-radius: 4px;
+}
+
+.online-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.online-list > .online > img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.online-list > .online {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.online-list > .online::after {
+    top: unset;
+    bottom: 5px;
 }
