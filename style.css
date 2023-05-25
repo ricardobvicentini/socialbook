@@ -341,3 +341,138 @@ nav {
     background-color: transparent;
     resize: none;
 }
+
+.add-post-links {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add-post-links > a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #626262;
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.add-post-links > a > img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.post-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    color: #626262;
+    margin: 20px 0;
+}
+
+.user-profile > span {
+    font-size: 30px;
+    color: #9a9a9a;
+}
+
+.post-text {
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-text > span {
+    color: #626262;
+    font-weight: 500;
+}
+
+.post-text > a {
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.post-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.post-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-icons > div > img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.activity-icons > div {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+.post-profile-icon > img {
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-row > a {
+    color: #9a9a9a;
+}
+
+.load-more-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #9a9a9a;
+    border-radius: 4px;
+    color: #626262;
+    background-color: transparent;
+}
+
+.footer {
+    text-align: center;
+    color: #9a9a9a;
+    padding: 10px 0 20px;
+    font-size: 13px;
+}
+
+.settings-menu {
+    position: absolute;
+    width: 90%;
+    max-width: 350px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+    overflow: hidden;
+    top: 108%;
+    right: 5%;
+}
+
+.user-profile > div > a {
+    font-size: 12px;
+    color: #1876f2;
+    text-decoration: none;
+}
+
+.settings-menu-inner {
+    padding: 20px;
+}
+
+.settings-menu > div > hr {
+    border: 0;
+    height: 1px;
+    background-color: #9a9a9a;
+    margin: 15px 0;
+}
